@@ -100,8 +100,8 @@ export class PaymentComponent implements OnInit {
 
       Swal.fire({
         icon: 'success',
-        title: 'Payment Successful',
-        text: 'Thank you! Your payment has been processed successfully.',
+        title: 'Order Placed Successfully',
+        text: 'Thank you! Your product will reach to you in 3 working days.',
         confirmButtonColor: '#3085d6',
         confirmButtonText: 'OK'
     }).then((result) => {
